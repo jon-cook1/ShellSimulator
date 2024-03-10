@@ -31,5 +31,5 @@ Once started, the shell presents a prompt (`shell> `) waiting for user input. Us
 - To run a command in the background, append `&` at the end of the command.
 - Use `cd [directory]` to change the current working directory.
 - Use `fg` to continue the most recent background process in the foreground.
-- Input `Ctrl+Z` or type `exit` to quit the shell simulator.
+- Input `Ctrl+C` or type `exit` to quit the shell simulator.
 
