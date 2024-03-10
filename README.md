@@ -10,6 +10,14 @@ This Shell Simulator, developed for COSC 208: Introduction to Computer Systems i
 - **Signal Handling**: Manages SIGCHLD to clean up zombie processes and ignores SIGINT to prevent shell termination with Ctrl+C.
 - **Process Management**: Supports forking and executing commands, with proper handling of foreground and background processes.
 
+## Development
+
+The development of this Shell Simulator focused on understanding process creation and management in Unix-like systems, parsing user input, and signal handling. Challenges included managing background processes and preventing shell termination through signal interception.
+
+## Acknowledgments
+
+Special thanks to [Ethan Rackleff] for completing this project with me.
+
 ## Usage
 
 Compile the shell simulator using a C compiler and run the generated executable:
@@ -25,10 +33,3 @@ Once started, the shell presents a prompt (`shell> `) waiting for user input. Us
 - Use `fg` to continue the most recent background process in the foreground.
 - Input `Ctrl+Z` or type `exit` to quit the shell simulator.
 
-## Development
-
-The development of this Shell Simulator focused on understanding process creation and management in Unix-like systems, parsing user input, and signal handling. Challenges included managing background processes and preventing shell termination through signal interception.
-
-## Acknowledgments
-
-Special thanks to [Ethan Rackleff] for completing this project with me.
