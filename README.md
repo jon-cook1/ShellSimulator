@@ -16,7 +16,7 @@ The development of this Shell Simulator focused on understanding process creatio
 
 ## Acknowledgments
 
-Special thanks to [Ethan Rackleff] for completing this project with me.
+Special thanks to [Innoo Ji] for completing this project with me.
 
 ## Usage
 
